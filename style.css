@@ -400,6 +400,7 @@ body{
 
 
 
+
 @media (max-width:799px) {
     .section-p1{
         padding: 40px 40px;
@@ -463,6 +464,7 @@ body{
     }
     #feature{
         justify-content: center;
+        gap: 15px;
     }
     #feature .fe-box{
        margin:15px 15px;
@@ -482,7 +484,7 @@ body{
         font-size: 24px;
     }
     #sm-banner .banner-box {
-        height:30vh;
+        height:40vh;
         min-width: 100%;
     }
     #banner3 {
