@@ -401,6 +401,109 @@ body{
 
 
 
+
+
+/* shop page */
+#page-header{
+    background-image: url(images/banner/b1.jpg);
+    width:100%;
+    height:40vh;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    align-items: center;
+    justify-content: center;
+}
+#page-header h2, #page-header p{
+ color:#fff;
+}
+
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color:#fff;
+    font-weight: 600;
+
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* single-product */
+
+#pdetails{
+    display: flex;
+    margin-top: 20px;
+}
+#pdetails .single-pro-image{
+    width:40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#pdetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+    text-align: justify;
+}
+#pdetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+#pdetails .single-pro-details h2{
+    font-size: 26px;
+}
+#pdetails .single-pro-details .option{
+  display: block;
+  
+}
+#pdetails .single-pro-details select{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#pdetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+#pdetails .single-pro-details button{
+   background-color: #088178;
+   color: #fff;
+}
+#pdetails .single-pro-details input:focus{
+    outline: none;
+}
+#pdetails .single-pro-details span{
+    line-height: 5px;
+}
+
+.selected {
+    border: 2px solid black;
+}
+
+
+
+
+
 @media (max-width:799px) {
     .section-p1{
         padding: 40px 40px;
@@ -535,11 +638,20 @@ body{
     }
     #banner3 .banner-box{
         width: 100%;
+    }  
+
+    #pdetails{
+       
+        flex-direction: column;
+
+    }
+    #pdetails .single-pro-image{
+          width:100%;
+          margin-right: 0;
+    }
+    #pdetails .single-pro-details{
+     width: 100%;   
     }
 
 
-    
-     
-
 }
-
